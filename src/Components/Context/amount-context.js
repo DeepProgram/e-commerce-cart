@@ -1,8 +1,9 @@
-import { createContext } from "react";
+import {createContext} from "react";
 
 const AmountContext = createContext({
-  amount: {},
-  dispatchAmount: () => {}
+    amount: {},
+    dispatchAmount: () => {
+    }
 });
 
 export default AmountContext;
